@@ -11,5 +11,5 @@ def line(katz_deli)
 end
 
 def take_a_number(name)
-  katz_deli.push(name)
+  katz_deli << name
 end
