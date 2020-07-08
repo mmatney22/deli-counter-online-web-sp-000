@@ -7,5 +7,5 @@ def line(katz_deli)
       current_line << "#{i + 1}. #{name}"
     end
   end
-  current_line
+  puts current_line
 end
