@@ -6,6 +6,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, i|
       current_line << "#{i + 1}. #{name}"
     end
+    puts current_line
   end
-  puts current_line
 end
